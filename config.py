@@ -13,12 +13,12 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 200))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
-OWNER_USERNAME = getenv("OWNER_USERNAME","TheKidPersonOp")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Itz_prince_king")
 CHAT_GROUP = getenv("CHAT_GROUP","https://t.me/FRIENDS2FAMILY00")
-OWNER_ID = int(getenv("OWNER_ID", 6507819384))
+OWNER_ID = int(getenv("OWNER_ID", 5724322712))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/cutexboy/MUSICALLBOTS",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/TheDxCoderteam/BabyMusicBot",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/NeoUpdatess")
@@ -29,7 +29,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 AUTO_GCAST = getenv("AUTO_GCAST","True")
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
-PROMO = getenv("PROMO","https://graph.org/file/876eee7413536f03c5245.jpg")
+PROMO = getenv("PROMO","https://graph.org/file/0e63ef1e60dd367a3daa5.jpg")
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
@@ -49,7 +49,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://graph.org/file/016949d09fd567bee0c56.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"

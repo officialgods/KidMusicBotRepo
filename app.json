@@ -52,9 +52,9 @@
         "value": "",
         "required": false
       },
-        "START_IMG": {
+        "START_IMG_URL": {
          "description": "your favourate image",
-         "required": false,
+         "required": true,
          "value": ""
         },
       "LOGGER_ID": {

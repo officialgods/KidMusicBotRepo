@@ -66,7 +66,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/best_friends_chatting_grpz0"
             ),
         ]
-         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="https://t.me/Dx_Coder")],
+         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], url=f"https://t.me/Dx_Coder")],
     ]
     return buttons
        
@@ -87,7 +87,7 @@ def stream_markup(_, chat_id):
                 text="Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/best_friends_chatting_grpz0"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="https://t.me/Dx_Coder")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], url=f"https://t.me/Dx_Coder")],
     ]
     return buttons
 
